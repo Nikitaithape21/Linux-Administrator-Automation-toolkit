@@ -23,18 +23,18 @@ read choice
 
 
 case $choice in
-    1) ./server.sh ;;
-    2) ./ resoures.sh  ;;
-    3) ./user.sh ;;
-    4) ./ permissions.sh ;;
-    5) ./group.sh ;;
-    6) ./file.sh ;;
-    7) ./dir.sh ;;
-    8) ./process.sh ;;
-    9) ./disk.sh ;;
-    10) ./log.sh ;;
-    11) ./backup.sh ;;
-    12) ./job.sh ;;
+    1) ./server management.sh ;;
+    2) ./ resoures management.sh  ;;
+    3) ./user management.sh ;;
+    4) ./ permissions management.sh ;;
+    5) ./group management.sh ;;
+    6) ./file management.sh ;;
+    7) ./dir management.sh ;;
+    8) ./process management.sh ;;
+    9) ./disk management.sh ;;
+    10) ./log management.sh ;;
+    11) ./Backup management.sh ;;
+    12) ./job management.sh ;;
     13) echo "Exiting..."; exit 0 ;;
     *) echo "Invalid option! Please run the script again with a valid option." ;;
 esac
